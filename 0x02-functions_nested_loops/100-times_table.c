@@ -3,6 +3,7 @@
 /**
  * print_times_table - Prints the times table of the input
  * @n: The value of the times table to be printed.
+ * Return:void
  */
 void print_times_tables(int n)
 {
