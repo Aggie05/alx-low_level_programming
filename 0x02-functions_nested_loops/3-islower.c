@@ -4,11 +4,11 @@
  * @c: is the int that will use for the argument of the function
  * Return: Always 0.
  */
-int_islower(intc)
+int_islower(int c)
 {
-	if (c >='a' && c <='z')
+	if (c >= 'a' && c <= 'z')
 	{
-		return (1)
+		return (1);
 	}
 	else
 		return (0);
