@@ -1,11 +1,10 @@
 #include "main.h"
 /**
- * print_number - prints a number
- * @n: The number to print
+ * print_number - print integer.
+ * @n: integer.
  *
  * Return: void.
  */
-
 void print_number(int n)
 {
 	unsigned int x;
@@ -17,8 +16,6 @@ void print_number(int n)
 		x = -n;
 	}
 	if (x / 10)
-	
 		print_number(x / 10);
-	
 	_putchar((x % 10) + '0');
 }
