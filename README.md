@@ -1,1 +1,1 @@
-my first readme on more functions and more nested
+0x05. C - Pointers, arrays and strings
