@@ -2,9 +2,10 @@
 #include "main.h"
 
 /**
- * puts2 - print every other character
+ * puts2 - prints every other character
  * @str: string
- * Return: nothing.
+ *
+ * Return: nothing
  */
 
 void puts2(char *str)
@@ -15,7 +16,7 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)
 			putchar(*(str + i));
-				i++;
+		i++;
 	}
 	putchar(10);
 }
