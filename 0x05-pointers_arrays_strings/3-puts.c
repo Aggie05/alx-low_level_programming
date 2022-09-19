@@ -6,7 +6,7 @@
  * @str: string to print
  *
  * Description: prints a string
- * on success: returns no error
+ * On success: returns no error
  */
 
 void _puts(char *str)
