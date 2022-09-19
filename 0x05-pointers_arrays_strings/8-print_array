@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include "main.h"
+
+/**
+* print_array - prints n element of array
+* @a: number of elements
+* @n: number of elements
+* Return: nothing
+*/
+
+void print_array(int *a, int n)
+{
+	in
+	intint inc;
+
