@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * puts2 - prints every other character
- * @str: string
+ * puts2 - prints every other character of a string
+ * @str: Apointer to an int that will be changed
  *
- * Return: nothing
+ * Return: void which means it is correct
  */
 
 void puts2(char *str)
