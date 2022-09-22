@@ -7,26 +7,22 @@
  */
 char *leet(char *x)
 {
-	int a = 0, b = 0, l = 5;
-	char r[5] = ('A', 'E', 'O', 'T', 'L');
+	int a = 0, b, l = 5;
+	char tr[5] = ('A', 'E', 'O', 'T', 'L');
+	char trw[5] = ('4', '3', '0', '7', '1');
 
-	char n[5] = ('4', '3', '0', '7', '1');
-
-	while (s[a])
+	while (x[a])
 	{
 		b = 0;
 
 		while (b < l)
 		{
-			if (s[a] == r[b] || s[a] - 32 == r[b])
-			{
-				s[a] = n[b];
-			}
-
+			if (x[a] == tr[b] || x[a] - 32 == tr[b])
+	                    x[a] = trw[b];
 			b++;
-		}
 
+		}
 		a++;
 	}
-	return (s);
+	return (x);
 }
